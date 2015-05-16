@@ -1,9 +1,16 @@
 {
   "icons": {
+    "book": ["action", "book", 18],
     "tree_channel": ["communication", "forum", 18],
     "tree_dialog": ["communication", "chat", 18],
     "tree_server": ["social", "public", 18],
-    "tree_util": ["action", "settings", 18]
+    "tree_util": ["action", "settings", 18],
+    "ulist_founder": ["action", "verified_user", 18],
+    "ulist_halfop": ["toggle", "star_half", 18],
+    "ulist_netop": ["hardware", "security", 18],
+    "ulist_op": ["toggle", "star", 18],
+    "ulist_owner": ["action", "supervisor_account", 18],
+    "ulist_voice": ["av", "mic", 18]
   },
   "type": "1x_web"
 }
