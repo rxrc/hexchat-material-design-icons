@@ -20,8 +20,21 @@ module.exports = (grunt) ->
         files: [
           {src: [
             'icons-white/*', 'icons-black/*',
-            'README.md', 'LICENSE.txt', 'CHANGELOG.md'
+            'README.md', 'LICENSE.txt', 'CHANGELOG.md',
+            'icons-tray.png', 'icons-app.png'
           ]}
         ]
 
-  grunt.registerTask 'default', ['copy', 'compress']
+    "imagemagick-convert":
+      tray:
+        args: [
+          'icons-black/tray_*.png',
+          '+append', 'icons-tray.png'
+        ]
+      app:
+        args: [
+          'icons-black/book.png', 'icons-black/tree_*.png', 'icons-black/ulist_*.png',
+          '+append', 'icons-app.png'
+        ]
+
+  grunt.registerTask 'default', ['copy', 'imagemagick-convert', 'compress']

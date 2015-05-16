@@ -8,6 +8,9 @@
 
 A complete material design icon theme for HexChat.
 
+![Tray icons](https://raw.github.com/rxrc/hexchat-material-design-icons/master/icons-tray.png)
+![App icons](https://raw.github.com/rxrc/hexchat-material-design-icons/master/icons-app.png)
+
 Icons taken from [Material Design icons by Google].
 
 [Material Design icons by Google]: https://github.com/google/material-design-icons
