@@ -1,0 +1,20 @@
+{
+  "name": "hexchat-material-design-icons",
+  "version": "0.1.0",
+  "authors": [
+    "Evan Sosenko <razorx@evansosenko.com>"
+  ],
+  "description": "A complete material design icon theme for HexChat.",
+  "main": "README.md",
+  "keywords": [
+    "hexchat",
+    "icons",
+    "theme",
+    "material design"
+  ],
+  "license": "CC BY",
+  "homepage": "https://github.com/rxrc/hexchat-material-design-icons",
+  "ignore": [
+    "**/.*"
+  ]
+}
