@@ -1,6 +1,7 @@
 module.exports = (grunt) ->
   require('load-grunt-tasks') grunt
 
+  pkg = grunt.file.readJSON('bower.json')
   theme = grunt.file.readJSON('theme.json')
   root = 'bower_components/material-design-icons'
   images = (color) ->
@@ -12,4 +13,12 @@ module.exports = (grunt) ->
   grunt.initConfig
     copy: images('white').concat images('black')
 
-  grunt.registerTask 'default', ['copy']
+    compress:
+      main:
+        options:
+          archive: "#{pkg.name}-v#{pkg.version}.zip"
+        files: [
+          {src: ['icons-white/*', 'icons-black/*']}
+        ]
+
+  grunt.registerTask 'default', ['copy', 'compress']
