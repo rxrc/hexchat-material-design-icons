@@ -6,7 +6,7 @@ module.exports = (grunt) ->
   images = (color) ->
     array = for icon, maticon of theme.icons
       "dest": "icons-#{color}/#{icon}.png",
-      "src": "#{root}/#{maticon[0]}/#{theme.type}/ic_#{maticon[1]}_#{color}_#{theme.size}.png"
+      "src": "#{root}/#{maticon[0]}/#{theme.type}/ic_#{maticon[1]}_#{color}_#{maticon[2]}dp.png"
 
   grunt.initConfig
     copy: images('white').concat images('black')

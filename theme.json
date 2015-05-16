@@ -1,10 +1,9 @@
 {
   "icons": {
-    "tree_channel": ["communication", "forum"],
-    "tree_dialog": ["communication", "chat"],
-    "tree_server": ["social", "public"],
-    "tree_util": ["action", "settings"]
+    "tree_channel": ["communication", "forum", 18],
+    "tree_dialog": ["communication", "chat", 18],
+    "tree_server": ["social", "public", 18],
+    "tree_util": ["action", "settings", 18]
   },
-  "type": "1x_web",
-  "size": "18dp"
+  "type": "1x_web"
 }
