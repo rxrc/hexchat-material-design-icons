@@ -1,6 +1,6 @@
 # HexChat Material Design Icon Theme
 
-[![Release](https://img.shields.io/github/release/rxrc/hexchat-material-design-icons.svg)](https://github.com/rxrc/hexchat-material-design-icons/releases)
+[![Bower Version](https://img.shields.io/bower/v/hexchat-material-design-icons.svg)](http://bower.io/search/?q=hexchat-material-design-icons)
 [![Creative Commons License](http://img.shields.io/badge/license-CC%20BY-blue.svg)](./LICENSE.txt)
 
 ## Description
