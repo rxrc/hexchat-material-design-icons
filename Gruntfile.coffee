@@ -18,7 +18,10 @@ module.exports = (grunt) ->
         options:
           archive: "#{pkg.name}-v#{pkg.version}.zip"
         files: [
-          {src: ['icons-white/*', 'icons-black/*']}
+          {src: [
+            'icons-white/*', 'icons-black/*',
+            'README.md', 'LICENSE.txt', 'CHANGELOG.md'
+          ]}
         ]
 
   grunt.registerTask 'default', ['copy', 'compress']
