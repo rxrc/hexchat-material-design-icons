@@ -1,6 +1,9 @@
 {
   "icons": {
     "book": ["action", "book", 18],
+    "tray_fileoffer": ["file", "file_download", 48],
+    "tray_highlight": ["action", "announcement", 48],
+    "tray_message": ["communication", "message", 48],
     "tree_channel": ["communication", "forum", 18],
     "tree_dialog": ["communication", "chat", 18],
     "tree_server": ["social", "public", 18],
