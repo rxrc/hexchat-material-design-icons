@@ -1,0 +1,8 @@
+{
+  "icons": {
+    "tree_channel": ["communication", "forum"],
+    "tree_server": ["social", "public"]
+  },
+  "type": "1x_web",
+  "size": "18dp"
+}

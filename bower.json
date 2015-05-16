@@ -16,5 +16,8 @@
   "homepage": "https://github.com/rxrc/hexchat-material-design-icons",
   "ignore": [
     "**/.*"
-  ]
+  ],
+  "devDependencies": {
+    "material-design-icons": "~1.0.2"
+  }
 }
