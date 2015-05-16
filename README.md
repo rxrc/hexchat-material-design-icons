@@ -13,7 +13,7 @@ Icons taken from [Material Design icons by Google].
 
 ## Installation and Usage
 
-Install `icons` to `~/.config/hexchat/icons`.
+Install `icons-white` or `icons-black` to `~/.config/hexchat/icons`.
 
 ## License
 
