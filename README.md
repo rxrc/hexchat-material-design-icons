@@ -1,8 +1,9 @@
 # HexChat Material Design Icon Theme
 
-[![Bower Version](https://img.shields.io/bower/v/hexchat-material-design-icons.svg)](http://bower.io/search/?q=hexchat-material-design-icons)
-[![Creative Commons License](http://img.shields.io/badge/license-CC%20BY-blue.svg)](./LICENSE.txt)
-[![Build Status](https://img.shields.io/travis/rxrc/hexchat-material-design-icons.svg)](https://travis-ci.org/rxrc/hexchat-material-design-icons)
+[![npm](https://img.shields.io/npm/v/hexchat-material-design-icons.svg)](https://www.npmjs.com/package/hexchat-material-design-icons)
+[![Bower](https://img.shields.io/bower/v/hexchat-material-design-icons.svg)](http://bower.io/search/?q=hexchat-material-design-icons)
+[![License](http://img.shields.io/badge/license-CC%20BY-blue.svg)](./LICENSE.txt)
+[![Travis](https://img.shields.io/travis/rxrc/hexchat-material-design-icons.svg)](https://travis-ci.org/rxrc/hexchat-material-design-icons)
 
 ## Description
 
@@ -19,33 +20,77 @@ Icons taken from [Material Design icons by Google].
 
 Install `icons-white` or `icons-black` to `~/.config/hexchat/icons`.
 
-## Development
+## Development and Testing
+
+### Source Code
+
+The [hexchat-material-design-icons source] is hosted on GitHub.
+Clone the project with
+
+```
+$ git clone https://github.com/rxrc/hexchat-material-design-icons.git
+```
+
+[rxrc-hexchat-material-design-icons source]: https://github.com/rxrc/hexchat-material-design-icons
 
 ### Requirements
 
-You will need [npm] with [Grunt] and [Bower].
+You will need [Node.js] with [npm].
 
 Install the development dependencies with
 
-```bash
+```
 $ npm install
-$ bower install
 ```
 
-### Building
+[Node.js]: https://nodejs.org/
+
+### Build
+
+Install any Bower dependencies and execute the default build task with
+
+```
+$ npm start
+```
 
 Icons are copied from `material-design-icons`
 according to `theme.json`.
 
-To generate the icon theme, simply run
+### Grunt
 
-```bash
-$ grunt
+Optionally, you may run additional development tasks with [Grunt].
+Install it with
+
+```
+$ npm install --global grunt-cli
 ```
 
-[Bower]: http://bower.io/
+Run `$ grunt --help` to see all Grunt tasks.
+
+```
+compress            # Compress files. *
+copy                # Copy files. *
+imagemagick-hisrc   # Performs a number of configured tasks *
+imagemagick-resize  # Resizes images using imagemagick *
+imagemagick-convert # Converts images using imagemagick *
+default             # Alias for "copy", "imagemagick-convert", "compress"
+                      tasks.
+```
+
 [Grunt]: http://gruntjs.com/
-[npm]: https://www.npmjs.com/
+
+## Contributing
+
+Please submit and comment on bug reports and feature requests.
+
+To submit a patch:
+
+1. Fork it (https://github.com/rxrc/hexchat-material-design-icons/fork).
+2. Create your feature branch (`git checkout -b my-new-feature`).
+3. Make changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin my-new-feature`).
+6. Create a new Pull Request.
 
 ## License
 
