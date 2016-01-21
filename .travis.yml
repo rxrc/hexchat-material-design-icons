@@ -8,13 +8,6 @@ cache:
     - node_modules
 sudo: false
 
-before_script:
-  - npm install -g grunt-cli
-  - npm install -g bower
-  - bower install
-
-script: grunt
-
 deploy:
   provider: releases
   api_key:
