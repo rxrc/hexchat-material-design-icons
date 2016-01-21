@@ -29,6 +29,6 @@
     "Gruntfile.coffee"
   ],
   "devDependencies": {
-    "material-design-icons": "~1.0.2"
+    "material-design-icons": "1.0.2"
   }
 }
