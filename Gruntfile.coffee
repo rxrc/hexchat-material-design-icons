@@ -1,7 +1,7 @@
 module.exports = (grunt) ->
   require('load-grunt-tasks') grunt
 
-  pkg = grunt.file.readJSON('bower.json')
+  pkg = grunt.file.readJSON('package.json')
   theme = grunt.file.readJSON('theme.json')
   root = 'bower_components/material-design-icons'
   images = (color) ->
