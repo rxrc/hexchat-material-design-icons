@@ -11,6 +11,7 @@ This change log follows the conventions of
 
 - Add metadata to `package.json` and release as npm package.
 - Update metadata in `bower.json`.
+- Add `npm-shrinkwrap.json`.
 - Lock material-design-icons version in `bower.json`.
 - Update README.
 - Update `.gitignore`.
