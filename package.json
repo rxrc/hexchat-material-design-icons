@@ -24,7 +24,9 @@
   },
   "files": [
     "icons-black",
-    "icons-white"
+    "icons-white",
+    "icons-app.png",
+    "icons-tray.png"
   ],
   "devDependencies": {
     "grunt": "^0.4.5",
