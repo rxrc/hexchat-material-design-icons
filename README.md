@@ -20,6 +20,25 @@ Icons taken from [Material Design icons by Google].
 
 Install `icons-white` or `icons-black` to `~/.config/hexchat/icons`.
 
+The icons are available through [npm] with
+
+```
+$ npm install --save hexchat-material-design-icons
+```
+
+or [Bower] with
+
+```
+$ bower install --save hexchat-material-design-icons
+```
+
+You can also download a [release][Releases]
+or clone the repository directly.
+
+[Bower]: http://bower.io/
+[npm]: https://www.npmjs.com/
+[Releases]: https://github.com/rxrc/hexchat-material-design-icons/releases
+
 ## Development and Testing
 
 ### Source Code
