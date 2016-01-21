@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+## Changed
+
+- Add metadata to `package.json` and release as npm package.
+
 ## [1.0.1] / 2015-05-16
 
 ### Added

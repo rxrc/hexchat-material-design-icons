@@ -1,5 +1,31 @@
 {
-  "private": true,
+  "name": "hexchat-material-design-icons",
+  "version": "1.0.1",
+  "description": "A complete material design icon theme for HexChat.",
+  "main": "README.md",
+  "keywords": [
+    "hexchat",
+    "icons",
+    "theme",
+    "material design"
+  ],
+  "homepage": "https://github.com/rxrc/hexchat-material-design-icons",
+  "bugs": "https://github.com/rxrc/hexchat-material-design-icons/issues",
+  "repository": "rxrc/hexchat-material-design-icons",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Evan Sosenko <razorx@evansosenko.com>"
+  ],
+  "scripts": {
+    "prestart": "bower install",
+    "start": "grunt",
+    "pretest": "bower install",
+    "test": "grunt"
+  },
+  "files": [
+    "icons-black",
+    "icons-white"
+  ],
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-compress": "^0.13.0",
