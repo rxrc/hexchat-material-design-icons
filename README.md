@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/hexchat-material-design-icons.svg)](https://www.npmjs.com/package/hexchat-material-design-icons)
 [![Bower](https://img.shields.io/bower/v/hexchat-material-design-icons.svg)](http://bower.io/search/?q=hexchat-material-design-icons)
-[![License](http://img.shields.io/badge/license-CC%20BY-blue.svg)](./LICENSE.txt)
+[![License](http://img.shields.io/badge/license-CC--BY--4.0-blue.svg)](./LICENSE.txt)
 [![Travis](https://img.shields.io/travis/rxrc/hexchat-material-design-icons.svg)](https://travis-ci.org/rxrc/hexchat-material-design-icons)
 
 ## Description
