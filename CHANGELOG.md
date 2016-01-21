@@ -7,6 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+## [1.1.0] / 2016-01-21
+
 ## Changed
 
 - Add metadata to `package.json` and release as npm package.
@@ -26,5 +28,6 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.1.0...HEAD
+[1.0.1]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.0.0...v1.0.1
