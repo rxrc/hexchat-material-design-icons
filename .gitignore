@@ -5,6 +5,9 @@
 # For more details, visit the project page:
 # https://github.com/github/gitignore
 
+# Compressed build output
+*.zip
+
 # Bower components directory
 bower_components
 
