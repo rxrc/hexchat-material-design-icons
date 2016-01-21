@@ -8,7 +8,8 @@ module.exports = (grunt) ->
     array = for icon, maticon of theme.icons
       nonull: true
       dest: "icons-#{color}/#{icon}.png",
-      src: "#{root}/#{maticon[0]}/#{theme.type}/ic_#{maticon[1]}_#{color}_#{maticon[2]}dp.png"
+      src: "#{root}/#{maticon[0]}/#{theme.type}/" + \
+           "ic_#{maticon[1]}_#{color}_#{maticon[2]}dp.png"
 
   grunt.initConfig
     copy: images('white').concat images('black')
@@ -19,9 +20,13 @@ module.exports = (grunt) ->
           archive: "#{pkg.name}-v#{pkg.version}.zip"
         files: [
           {src: [
-            'icons-white/*', 'icons-black/*',
-            'README.md', 'LICENSE.txt', 'CHANGELOG.md',
-            'icons-tray.png', 'icons-app.png'
+            'icons-white/*',
+            'icons-black/*',
+            'README.md',
+            'LICENSE.txt',
+            'CHANGELOG.md',
+            'icons-tray.png',
+            'icons-app.png'
           ]}
         ]
 
@@ -33,7 +38,9 @@ module.exports = (grunt) ->
         ]
       app:
         args: [
-          'icons-black/book.png', 'icons-black/tree_*.png', 'icons-black/ulist_*.png',
+          'icons-black/book.png',
+          'icons-black/tree_*.png',
+          'icons-black/ulist_*.png',
           '+append', 'icons-app.png'
         ]
 
