@@ -1508,6 +1508,11 @@
       "from": "grunt@0.4.5",
       "resolved": "https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz"
     },
+    "grunt-cli": {
+      "version": "0.1.13",
+      "from": "grunt-cli@0.1.13",
+      "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz"
+    },
     "grunt-contrib-compress": {
       "version": "0.14.0",
       "from": "grunt-contrib-compress@0.14.0",
@@ -1822,6 +1827,11 @@
       "version": "2.0.0",
       "from": "repeating@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/repeating/-/repeating-2.0.0.tgz"
+    },
+    "resolve": {
+      "version": "0.3.1",
+      "from": "resolve@>=0.3.1 <0.4.0",
+      "resolved": "https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz"
     },
     "resolve-from": {
       "version": "2.0.0",
