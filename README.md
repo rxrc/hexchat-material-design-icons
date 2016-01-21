@@ -50,7 +50,7 @@ Clone the project with
 $ git clone https://github.com/rxrc/hexchat-material-design-icons.git
 ```
 
-[rxrc-hexchat-material-design-icons source]: https://github.com/rxrc/hexchat-material-design-icons
+[hexchat-material-design-icons source]: https://github.com/rxrc/hexchat-material-design-icons
 
 ### Requirements
 
