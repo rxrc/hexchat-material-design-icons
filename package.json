@@ -17,6 +17,7 @@
     "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "scripts": {
+    "postversion": "git push && git push --tags",
     "prestart": "bower install",
     "start": "grunt",
     "pretest": "bower install",
