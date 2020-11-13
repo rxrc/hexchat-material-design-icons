@@ -1,7 +1,6 @@
 # HexChat Material Design Icon Theme
 
 [![npm](https://img.shields.io/npm/v/hexchat-material-design-icons.svg)](https://www.npmjs.com/package/hexchat-material-design-icons)
-[![Bower](https://img.shields.io/bower/v/hexchat-material-design-icons.svg)](http://bower.io/search/?q=hexchat-material-design-icons)
 [![License](http://img.shields.io/badge/license-CC--BY--4.0-blue.svg)](./LICENSE.txt)
 [![Travis](https://img.shields.io/travis/rxrc/hexchat-material-design-icons.svg)](https://travis-ci.org/rxrc/hexchat-material-design-icons)
 
@@ -23,19 +22,12 @@ Install `icons-white` or `icons-black` to `~/.config/hexchat/icons`.
 The icons are available through [npm] with
 
 ```
-$ npm install --save hexchat-material-design-icons
-```
-
-or [Bower] with
-
-```
-$ bower install --save hexchat-material-design-icons
+$ npm install --save @rxrc/hexchat-material-design-icons
 ```
 
 You can also download a [release][Releases]
 or clone the repository directly.
 
-[Bower]: http://bower.io/
 [npm]: https://www.npmjs.com/
 [Releases]: https://github.com/rxrc/hexchat-material-design-icons/releases
 
