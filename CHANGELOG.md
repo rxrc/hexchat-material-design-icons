@@ -5,6 +5,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This change log follows the conventions of
 [keep a CHANGELOG](http://keepachangelog.com/).
 
+## [2.0.1] / 2020-11-13
+
+## Changed
+
+- Use package-lock.json.
+
 ## [2.0.0] / 2020-11-13
 
 ## Changed
@@ -33,7 +39,8 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/rxrc/hexchat-material-design-icons/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/rxrc/hexchat-material-design-icons/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/rxrc/hexchat-material-design-icons/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.1.0...v2.0.0
 [1.0.1]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/rxrc/hexchat-material-design-icons/compare/v1.0.0...v1.0.1
