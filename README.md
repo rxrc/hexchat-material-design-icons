@@ -58,7 +58,7 @@ $ npm install
 
 ### Build
 
-Install any Bower dependencies and execute the default build task with
+Execute the default build task with
 
 ```
 $ npm start

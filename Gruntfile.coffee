@@ -3,7 +3,7 @@ module.exports = (grunt) ->
 
   pkg = grunt.file.readJSON('package.json')
   theme = grunt.file.readJSON('theme.json')
-  root = 'bower_components/material-design-icons'
+  root = 'node_modules/material-design-icons'
   images = (color) ->
     array = for icon, maticon of theme.icons
       nonull: true
